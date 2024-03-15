@@ -1,8 +1,8 @@
 from tkinter import *
 
-equation_text= ""
+equation_text= "" #I have declaring equation_text as a empty string
 def press(num):
-    global equation_text
+    global equation_text#It allows you to change a variable value outside of its current scope
 
     equation_text = equation_text + str(num)
 
